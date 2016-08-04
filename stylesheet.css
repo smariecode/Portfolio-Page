@@ -1,0 +1,168 @@
+/* nav bar settings 
+------------------------------------ */
+
+body{
+  font-family: Arvo;
+  position: relative;
+  background-image: url("http://sandramarie.tech/images/bluebk.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  }
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  }
+
+.nav li {
+  float: right;
+  font-size: 11pt;
+  margin-right: 25px;
+ }
+
+.nav .active a {
+  background-color: pink!important;
+}
+
+.navbar {
+  background-color: pink;
+}
+
+
+/* general formatting 
+------------------------------------ */
+
+.top {
+  margin-top: 140px;
+}
+
+#portfolio h3 {
+  text-align: center;
+}
+
+#main p {
+  font-weight: 580;
+  font-size: 15px;
+}
+
+
+
+ /* i like what i do (skills) section settings
+------------------------------------ */
+.center-fa {
+    display:inline-block;
+    width: 100%;
+    }
+
+div i{
+  text-align: center;
+}
+
+.shadow-button {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: -5px 5px 30px black;
+}
+
+.shadow-button:hover {
+  background-color: #FDFBFC;
+}
+
+#skills h4 {
+  text-align: center;
+}
+
+.pad-words {
+  margin-top: 20px;
+}
+
+
+.pad-section {
+  margin-top:25px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  border-top: 1px solid black;
+  border-top: 2px groove pink;
+  border-top:
+  }
+
+ /* porfolio section settings
+------------------------------------ */
+.btn-scode {
+  color: grey;
+  background-color:pink;
+}
+
+#port-section {
+  border-left: 1px solid black;
+  border-left: 2px groove pink;
+  border-right: 1px solid black;
+  border-right: 2px groove pink;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 35px;
+}
+
+#portfolio {
+  border-bottom: 1px solid black;
+  border-bottom: 2px groove pink;
+}
+
+
+ /* contact section settings
+------------------------------------ */
+
+
+.fa-github, .fa-linkedin,
+.fa-codepen, .fa-fire {
+  color: grey;
+  padding-right: 5px;
+  padding-left: 5px;
+  /* padding-bottom: 15px; 
+  padding-top: 15px; 
+  vertical-align: middle; */
+  }
+
+.fa-github:hover, .fa-linkedin:hover,
+.fa-codepen:hover {
+  color: pink;
+}
+
+#contact h2 {
+  padding-bottom: 35px;
+}
+
+#button-adj {
+  padding-right: 26px;
+}
+
+#submit {
+  background-color: pink;
+}
+
+#submit:hover {
+  color: grey;
+}
+
+/* social section settings
+------------------------------------ */
+
+.greybar {
+
+  border-top: 2px solid grey;
+    -webkit-box-shadow: 0 0 15px 2px grey;
+    -moz-box-shadow: 0 0 15px 2px grey;
+    box-shadow: 0 0 15px 2px grey;
+
+}
+
+#social h5 {
+  color: grey;
+  text-align: center;
+
+}
+
+/* who wrote this page 
+------------------------------------ */
+
